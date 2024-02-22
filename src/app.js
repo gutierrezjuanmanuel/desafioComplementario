@@ -6,7 +6,7 @@ require("./database.js");
 
 const productsRouter = require("./routes/products.router.js");
 const cartsRouter = require("./routes/carts.router.js");
-const viewsRouter = require("./routes/views.router.js");
+//const viewsRouter = require("./routes/views.router.js");
 
 //Middleware
 app.use(express.urlencoded({ extended: true }));
